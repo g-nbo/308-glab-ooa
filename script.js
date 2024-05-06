@@ -140,7 +140,7 @@ const bob = fighters.generate("Bob");
 const robinObj = fighters.findByName("Robin");
 const bobObj = fighters.findByName("Bob");
 
-console.log(bobObj.duel(robinObj));
+bobObj.duel(robinObj);
 
 
 
